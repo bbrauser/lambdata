@@ -47,7 +47,7 @@ class Animal:
 class Tiger(Animal):
     """Representation of tigers, a subclass of Animal."""
     def __init__(self, name, weight, diet_type, num_stripes):
-        super().__init__(name, weight, diet_type)
+        
         self.num_stripes = num_stripes
 
     def say_great(self):

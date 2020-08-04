@@ -13,7 +13,7 @@ with open("README.md", "r") as file:
 
 setuptools.setup(
     name = "lambdata-bbrauser",
-    version = "0.0.7",
+    version = "0.0.8",
     author = "bbrauser", 
     description = "A collection of Data Science helper functions", 
     long_description = LONG_DESCRIPTION, 
@@ -27,4 +27,3 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License", 
         "Operating System :: OS Independent", 
     ],
-)
