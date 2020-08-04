@@ -1,3 +1,3 @@
 # lambdata
 
-# link to PyPi: https://test.pypi.org/simple/%20lambdata-bbrauser==0.0.6
+https://test.pypi.org/project/lambdata-bbrauser/0.0.6/
