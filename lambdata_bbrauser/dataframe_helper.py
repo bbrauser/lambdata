@@ -18,3 +18,17 @@ def date_split(df):
     df['Day'] = pd.DatetimeIndex(df['Date']).day
     df['Year'] = pd.DatetimeIndex(df['Date']).year
     return df
+
+
+class Animal:
+    """General representation of animals."""
+    def __init__(self, name, weight, diet_type):
+        self.name = str(name)
+        self.weight = weight
+        self.diet_type = diet_type
+
+    def run(self):
+        return 'Vroom!'
+
+    def eat(self, food):
+        return food + ' is delicious, yum!'
