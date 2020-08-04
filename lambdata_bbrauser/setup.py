@@ -13,7 +13,7 @@ with open("README.md", "r") as file:
 
 setuptools.setup(
     name = "lambdata-bbrauser",
-    version = "0.0.3",
+    version = "0.0.4",
     author = "bbrauser", 
     description = "A collection of Data Science helper functions", 
     long_description = LONG_DESCRIPTION, 
