@@ -7,7 +7,7 @@ import pandas as pd
 def report_missing_values(df):
     """Print a pretty report of missing values."""
     df = df.isnull().sum()
-    df = pd.DataFrame(df)
+    df = pd.DataFrame(df, columns = ['Number Missing'])
     return df
 
 def tvt_split(df):
