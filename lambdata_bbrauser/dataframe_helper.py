@@ -34,7 +34,7 @@ def date_split(df):
 #         return food + ' is delicious, yum!'
 
 
-class MathFunctions:
+class Math:
     """Basic math function to add, subtract, multiply and divide"""
     def __init__(self, num1):
         self.n1 = num1

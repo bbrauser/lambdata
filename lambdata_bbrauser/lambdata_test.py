@@ -16,7 +16,7 @@ from random import randint
 
 # from example_module import increment, COLORS
 # from oop_examples import SocialMediaUser
-from dataframe_helper import MathFunctions
+from dataframe_helper import Math
 
 
 # class ExampleUnitTests(unittest.TestCase):
@@ -68,28 +68,28 @@ class DFHelperUnitTest(unittest.TestCase):
     """Making sure the Math class performs as expected"""
     def test_num1(self):
         """Tests the num1 field is assigned correctly"""
-        x = MathFunctions(2)
-        y = MathFunctions(-3)
+        x = Math(2)
+        y = MathMathFunctions(-3)
         self.assertEqual(x.n1, 2)
         self.assertEqual(y.n1, -3)
     
     def test_add(self):
-        x = MathFunctions(2)
+        x = Math(2)
         y = x.addition(5)
         self.assertEqual(y, 7)
             
     def test_subtract(self):
-        x = MathFunctions(2)
+        x = Math(2)
         y = x.subtract(5)
         self.assertEqual(y, -3)
     
     def test_multiply(self):
-        x = MathFunctions(2)
+        x = Math(2)
         y = x.multiply(5)
         self.assertEqual(y, 10)
     
     def test_divide(self):
-        x = MathFunctions(2)
+        x = Math(2)
         y = x.divide(5)
         self.assertEqual(y, .4)
 
