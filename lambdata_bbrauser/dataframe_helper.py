@@ -20,36 +20,40 @@ def date_split(df):
     return df
 
 
-class Animal:
-    """General representation of animals."""
-    def __init__(self, name, weight, color):
-        self.name = str(name)
-        self.weight = weight
-        self.color = color
+# class Animal:
+#     """General representation of animals."""
+#     def __init__(self, name, weight, color):
+#         self.name = str(name)
+#         self.weight = weight
+#         self.color = color
 
-    def run(self):
-        return 'Vroom!'
+#     def run(self):
+#         return 'Vroom!'
 
-    def eat(self, food):
-        return food + ' is delicious, yum!'
+#     def eat(self, food):
+#         return food + ' is delicious, yum!'
 
 
-class Math:
+class MathFunctions:
     """Basic math function to add, subtract, multiply and divide"""
     def __init__(self, num1):
         self.n1 = num1
 
-    def add(self, num2):
-        self.n1 += num2.n1
+    def addition(self, num2):
+        self.n1 += num2
+        return self.n1
 
     def subtract(self, num2):
-        self.n1 -= num2.n1
+        self.n1 -= num2
+        return self.n1
 
     def multiply(self, num2):
-        self.n1 *= num2.n1
+        self.n1 *= num2
+        return self.n1
 
     def divide(self, num2):
-        self.n1 //= num2.n1
+        self.n1 /= num2
+        return self.n1
 
     def __repr__(self):
         return '{}'.format(self.n1)

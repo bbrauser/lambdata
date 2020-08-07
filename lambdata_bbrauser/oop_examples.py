@@ -1,11 +1,12 @@
 #1/usr/bin/env python
 
 import pandas as pd
-import numpy as np
+
 
 class MyDataFrame(pd.DataFrame):
     def num_cells(self):
         return self.shape[0] * self.shape[1]
+
 
 class Complex:
     def __init__(self, realpart, imagpart):
@@ -22,7 +23,7 @@ class Complex:
 
 class SocialMediaUser:
     def __init__(self, name):
-        self.name  = name
+        self.name = name
         self.upvotes = 0
 
     def recieve_upvote(self):
@@ -30,7 +31,29 @@ class SocialMediaUser:
     
     def is_popular(self):
         return self.upvotes > 100
-        
+
+
+# class Math:
+#     """Basic math function to add, subtract, multiply and divide"""
+#     def __init__(self, num1):
+#         self.n1 = num1
+
+#     def add(self, num2):
+#         self.n1 += num2.n1
+
+#     def subtract(self, num2):
+#         self.n1 -= num2.n1
+
+#     def multiply(self, num2):
+#         self.n1 *= num2.n1
+
+#     def divide(self, num2):
+#         self.n1 /= num2.n1
+
+#     def __repr__(self):
+#         return '{}'.format(self.n1)
+
+
 class Animal:
     """General representation of animals."""
     def __init__(self, name, weight, diet_type):
